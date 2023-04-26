@@ -51,21 +51,6 @@ const AllFilms = () => {
             director={film?.director}
             releaseDate={film.releaseDate}
           />
-          // <div key={index}>
-          //   {/* Show the films species connection */}
-          //   {film.speciesConnection.species.map((specie, index) => (
-          //     <div key={index}>
-          //       <span>Species Connection: {specie.name}</span>
-          //       <span role="img" aria-label="ghost">
-          //         {" "}
-          //         👻{" "}
-          //       </span>
-          //       <span>Species classification: {specie.classification}</span>
-          //       <br />
-          //     </div>
-          //   ))}
-          //   <hr />
-          // </div>
         ))}
       </div>
     </div>
